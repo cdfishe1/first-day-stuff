@@ -1,0 +1,99 @@
+/* Set the root font */
+html {
+    font-size: 20px;
+}
+
+/* Set the main page colors and width */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    max-width: 50%;
+    margin: auto;
+    background-color: black;
+    color: palegoldenrod;
+    min-width: 50%;
+}
+
+/* Set the anchor properties */
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: aqua;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: underline;
+  }
+
+  /* Set the main image properties */
+img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header properties */
+header {
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+/* Bold text */
+.boldText {
+    font-weight: bold;
+}
+
+/* Format tips */
+.tip {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Format sections */
+.sections {
+    background-color: slateblue;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin: 1rem;
+    
+}
+
+/* Table formatting */
+table, th, td {
+    border: 1px solid black;
+    padding: 0.25rem;
+    background-color: palegoldenrod;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: goldenrod
+}
+
+h3 {
+    color: lightsalmon;
+}
+
+h4 {
+    margin: 1rem;
+    color: chocolate;
+}
+
+ol, ul {
+    margin: 1rem;
+}
